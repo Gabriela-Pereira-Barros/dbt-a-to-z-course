@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: northwind
+    database: dbt-a-to-z-course  
+    schema: erp_nothwind
+  
+    tables:
+      - name: _Order_
+      - name: Customer
+      - name: OrderDetail
+      
